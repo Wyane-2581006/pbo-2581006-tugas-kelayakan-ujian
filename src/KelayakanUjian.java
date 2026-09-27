@@ -5,10 +5,10 @@ public class KelayakanUjian {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Kehadiran (%)   : ");
-        double kehadiran = scanner.nextDouble();
+        int kehadiran = scanner.nextInt();
 
         System.out.print("Nilai Tugas     : ");
-        double nilai_Tugas = scanner.nextDouble();
+        int nilai_Tugas = scanner.nextInt();
 
         System.out.print("Dispensasi      : ");
         boolean dispensasi = scanner.nextBoolean();
