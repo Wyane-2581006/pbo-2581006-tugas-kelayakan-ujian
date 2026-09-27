@@ -32,6 +32,15 @@ public class KelayakanUjian {
         // Karena menggunakan ||, kondisi kedua tidak diperiksa lagi (short-circuit).
         // Akibatnya cek++ tidak dijalankan dan cek tetap 0.
 
+        System.out.println("==== KELAYAKAN UJIAN ====");
+        System.out.println("Kehadiran : " + kehadiran);
+        System.out.println("Nilai Tugas : " + nilai_Tugas);
+        System.out.println("Dispensasi : " + dispensasi);
+        System.out.println("a (tanpa kurung)      : " + a);
+        System.out.println("b (kurung precedence) : " + b);
+        System.out.println("c (kurung digeser)    : " + c);
+        System.out.println("!dispensasi           : " + !dispensasi);
+        System.out.println("cek dipanggil         : " + cek);
 
     }
 }
