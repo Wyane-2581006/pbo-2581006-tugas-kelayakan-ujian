@@ -18,6 +18,8 @@ public class KelayakanUjian {
         boolean c = kehadiran >= 75 && (nilai_Tugas >= 60 || dispensasi);
         // Versi A dan B menghasilkan nilai yang sama karena && memiliki
         // prioritas lebih tinggi daripada ||.
+        // &&: hasil bernilai true jika kedua kondisi bernilai true.
+        // ||: hasil bernilai true jika salah satu atau kedua kondisi bernilai true.
         // Kesimpulan: && mengikat lebih kuat daripada ||.
 
         //pembuktian short-circuit
